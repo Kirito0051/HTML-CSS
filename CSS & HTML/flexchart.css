@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+body{
+    font-family: sans-serif;
+}
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.row .label {
+    flex: 0 0 auto;
+    font-family: 'Playwrite NG Modern', sans-serif;
+    font-size: small;
+    color: cadetblue;
+    
+}
+
+.row .container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+.row .dish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pizza {
+    background-color: #FFD700;
+    font-family: 'Playwrite NG Modern', sans-serif;
+    font-size: 70%;
+}
+
+.Burger {
+    background-color: #CD853F;
+    font-family: 'Playwrite NG Modern', sans-serif;
+    font-size: 70%;
+}
+
+.Donuts {
+    background-color: #7B3F00;
+    font-family: 'Playwrite NG Modern', sans-serif;
+    font-size: 70%;
+}

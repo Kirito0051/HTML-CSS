@@ -1,0 +1,18 @@
+.Flex_Box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 10px;
+}
+.box {
+  background-color: aqua;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 10px;
+}
+.box3 {
+  background-color: blanchedalmond;
+  align-self: center;
+}

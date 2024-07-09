@@ -1,0 +1,31 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr) ;
+}
+
+.segment{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    grid-template-rows: 100px;
+}
+
+.ten{
+    background-color: #EAE7DC;
+    grid-column: 1/ span 5;
+}
+
+.two{
+    background-color: bisque;
+    grid-column: 5/ span 10;
+}
+
+.three{
+    background-color: lightblue;
+    grid-column: 1/ span 5;
+}
+
+.four{
+    background-color: lightsteelblue;
+    grid-column: 5/ span 10;
+}
